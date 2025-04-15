@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.2",
+    "chat-app": "file:..",
     "chat-app-n": "file:..",
     "cloudinary": "^2.6.0",
     "cookie-parser": "^1.4.7",
