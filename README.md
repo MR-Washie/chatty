@@ -1,4 +1,4 @@
-# Path-to-RegExp
+# chatty
 
 > Turn a path string such as `/user/:name` into a regular expression.
 
@@ -11,7 +11,7 @@
 ## Installation
 
 ```
-npm install path-to-regexp --save
+npm install path-to-chatty --save
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ const {
   compile,
   parse,
   stringify,
-} = require("path-to-regexp");
+} = require("path-to-chatty");
 ```
 
 ### Parameters
@@ -67,7 +67,7 @@ fn("/users/123/delete");
 The `match` function returns a function for matching strings against a path:
 
 - **path** String or array of strings.
-- **options** _(optional)_ (Extends [pathToRegexp](#pathToRegexp) options)
+- **options** _(optional)_ (Extends [pathToRegexp](#chatty) options)
   - **decode** Function for decoding strings to params, or `false` to disable all processing. (default: `decodeURIComponent`)
 
 ```js
@@ -206,7 +206,7 @@ Path-To-RegExp breaks compatibility with Express <= `4.x` in the following ways:
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/path-to-regexp
+[npm-image]: https://img.shields.io/npm/v/chatty
 [npm-url]: https://npmjs.org/package/path-to-regexp
 [downloads-image]: https://img.shields.io/npm/dm/path-to-regexp
 [downloads-url]: https://npmjs.org/package/path-to-regexp
