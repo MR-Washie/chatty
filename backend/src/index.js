@@ -22,7 +22,7 @@ app.use(express.urlencoded({ limit: "10mb", extended: true }))
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chatttyyy.netlify.app",
+    origin: "https://chatty-lggg.onrender.com",
     credentials: true,
   })
 );
