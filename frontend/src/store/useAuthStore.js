@@ -4,9 +4,9 @@ import toast from "react-hot-toast";
 import { io } from "socket.io-client";
 
 // const BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:5001" : "/";
-const BASE_URL = import.meta.env.MODE === "https://chattyyy.onrender.com";
+// const BASE_URL = import.meta.env.MODE === "https://chattyyy.onrender.com";
 
-// const BASE_URL = "https://chattyyy.onrender.com";
+const BASE_URL = "https://chattyyy.onrender.com";
 
 
 export const useAuthStore = create((set, get) => ({
